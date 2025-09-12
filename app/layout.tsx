@@ -10,6 +10,8 @@ const outfitSansSerif = Outfit({
 });
 
 import "@/_styles/globals.css";
+import { Header } from "@/_components/navigation/header/header";
+import { Footer } from "@/_components/navigation/footer/footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.lalunaplett.co.za"),
@@ -37,7 +39,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${outfitSansSerif.className} antialiased`}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
