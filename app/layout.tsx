@@ -6,7 +6,7 @@ const outfitSansSerif = Outfit({
   variable: "--font-outfit-sans-serif",
   display: "swap",
   subsets: ["latin"],
-  weight: ["200", "600"],
+  weight: ["100", "200", "600"],
 });
 
 import "@/_styles/globals.css";

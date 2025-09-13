@@ -94,14 +94,6 @@
 
 /* swiper styles */
 
-:root {
-  --swiper-pagination-color: #FCAFDB;
-  --swiper-pagination-bullet-inactive-color: #FCAFDB;
-  --swiper-pagination-bullet-inactive-opacity: 0.5;
-  --swiper-pagination-bullet-size: 8px;
-  --swiper-pagination-bullet-horizontal-gap: 4px;
-}
-
 .swiper-pagination-v {
   left: -30px !important;
 }
