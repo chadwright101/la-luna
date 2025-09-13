@@ -3,5 +3,13 @@
     "/images/placeholders/placeholder-1.jpg",
     "/images/placeholders/placeholder-2.jpg",
     "/images/placeholders/placeholder-3.webp"
+  ],
+  "gallerySlider": [
+    "/images/placeholders/gallery-1.png",
+    "/images/placeholders/gallery-2.png",
+    "/images/placeholders/gallery-3.png",
+    "/images/placeholders/gallery-4.png",
+    "/images/placeholders/gallery-5.jpg",
+    "/images/placeholders/gallery-6.webp"
   ]
 }
