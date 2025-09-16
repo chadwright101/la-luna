@@ -12,6 +12,7 @@ export function DesktopHeader() {
           alt="La Luna Boutique - Plettenberg Bay"
           width={197}
           height={44}
+          loading="eager"
         />
       </Link>
       <nav className="self-end">
@@ -22,6 +23,7 @@ export function DesktopHeader() {
                 <Link
                   href={url}
                   className="text-paragraph text-white hover:text-pink"
+                  prefetch={false}
                 >
                   {title}
                 </Link>

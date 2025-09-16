@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import navData from "@/_data/nav-data.json";
-import SocialIcons from "@/_lib/social-icons";
+import SocialIcons from "@/_components/ui/social-icons";
 
 export function DesktopFooter() {
   return (

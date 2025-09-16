@@ -73,6 +73,7 @@ const GallerySlider = ({ cssClasses, data }: Props) => {
             width={500}
             height={360}
             className="w-full h-full object-cover"
+            loading="eager"
           />
         </SwiperSlide>
       ))}

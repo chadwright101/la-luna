@@ -33,6 +33,7 @@ export function MobileHeader() {
             alt="La Luna Boutique - Plettenberg Bay"
             width={121}
             height={27}
+            loading="eager"
           />
         </Link>
 
@@ -72,6 +73,7 @@ export function MobileHeader() {
                     href={url}
                     onClick={() => setIsOpen(false)}
                     className="text-[20px] text-black font-normal p-3 -m-3"
+                    prefetch={false}
                   >
                     {title}
                   </Link>

@@ -13,14 +13,14 @@ const whatsappLink = "#";
 const facebookLogoWhite = "/icons/facebook-white.svg";
 const instagramLogoWhite = "/icons/instagram-white.svg";
 const whatsAppLogoWhite = "/icons/whatsapp-white.svg";
-const facebookLogoBlack = "/icons/facebook-white.svg";
-const instagramLogoBlack = "/icons/instagram-white.svg";
-const whatsAppLogoBlack = "/icons/whatsapp-white.svg";
+const facebookLogoBlack = "/icons/facebook-black.svg";
+const instagramLogoBlack = "/icons/instagram-black.svg";
+const whatsAppLogoBlack = "/icons/whatsapp-black.svg";
 
 const SocialIcons = ({ cssClasses, small, black }: Props) => {
   if (!small) {
     return (
-      <ul className={`flex gap-5 ${cssClasses}`}>
+      <ul className={`flex gap-5 desktop:gap-2 ${cssClasses}`}>
         <li>
           <Link
             href={facebookLink}
@@ -31,8 +31,9 @@ const SocialIcons = ({ cssClasses, small, black }: Props) => {
             <Image
               src={black ? facebookLogoBlack : facebookLogoWhite}
               alt="View our Facebook page"
-              width={28}
-              height={28}
+              width={32}
+              height={32}
+              className="desktop:w-6 h-auto"
             />
           </Link>
         </li>
@@ -46,8 +47,9 @@ const SocialIcons = ({ cssClasses, small, black }: Props) => {
             <Image
               src={black ? instagramLogoBlack : instagramLogoWhite}
               alt="View our Instagram profile"
-              width={28}
-              height={28}
+              width={32}
+              height={32}
+              className="desktop:w-6 h-auto"
             />
           </Link>
         </li>
@@ -61,8 +63,9 @@ const SocialIcons = ({ cssClasses, small, black }: Props) => {
             <Image
               src={black ? whatsAppLogoBlack : whatsAppLogoWhite}
               alt="Get in touch on WhatsApp"
-              width={28}
-              height={28}
+              width={32}
+              height={32}
+              className="desktop:w-6 h-auto"
             />
           </Link>
         </li>

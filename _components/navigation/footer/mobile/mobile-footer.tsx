@@ -1,4 +1,4 @@
-import SocialIcons from "@/_lib/social-icons";
+import SocialIcons from "@/_components/ui/social-icons";
 import Image from "next/image";
 import Link from "next/link";
 

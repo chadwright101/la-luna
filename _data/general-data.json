@@ -11,5 +11,9 @@
     "/images/placeholders/gallery-4.png",
     "/images/placeholders/gallery-5.jpg",
     "/images/placeholders/gallery-6.webp"
-  ]
+  ],
+  "contact": {
+    "email": "info@lalunaplett.co.za",
+    "phone": "072 718 6684"
+  }
 }
