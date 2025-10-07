@@ -71,7 +71,7 @@ export async function sendEmail(
       const mailOptions: MailOptions = {
         from: process.env.SMTP_USER as string,
         to: process.env.SMTP_SEND_TO as string,
-        subject: "Website form submission - La Luna Plett",
+        subject: "Website form submission - La Luna Boutique",
         replyTo: email,
         html: emailHtmlContent,
       };

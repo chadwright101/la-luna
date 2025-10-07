@@ -1,16 +1,27 @@
 {
   "heroSlider": [
-    "/images/placeholders/placeholder-1.jpg",
-    "/images/placeholders/placeholder-2.jpg",
-    "/images/placeholders/placeholder-3.webp"
+    "/images/hero-slider/la-luna-boutique-image-4.jpg",
+    "/images/hero-slider/la-luna-boutique-image-5.jpg",
+    "/images/hero-slider/la-luna-boutique-image-18.jpg",
+    "/images/hero-slider/la-luna-boutique-image-7.jpg",
+    "/images/hero-slider/la-luna-boutique-image-9.jpg",
+    "/images/hero-slider/la-luna-boutique-image-16.jpg"
   ],
   "gallerySlider": [
-    "/images/placeholders/gallery-1.png",
-    "/images/placeholders/gallery-2.png",
-    "/images/placeholders/gallery-3.png",
-    "/images/placeholders/gallery-4.png",
-    "/images/placeholders/gallery-5.jpg",
-    "/images/placeholders/gallery-6.webp"
+    "/images/la-luna-boutique-image-17.jpg",
+    "/images/la-luna-boutique-image-3.jpg",
+    "/images/la-luna-boutique-image-22.jpg",
+    "/images/la-luna-boutique-image-15.jpg",
+    "/images/la-luna-boutique-image-6.jpg",
+    "/images/la-luna-boutique-image-11.jpg",
+    "/images/la-luna-boutique-image-8.jpg",
+    "/images/la-luna-boutique-image-2.jpg",
+    "/images/la-luna-boutique-image-21.jpg",
+    "/images/la-luna-boutique-image-12.jpg",
+    "/images/la-luna-boutique-image-14.jpg",
+    "/images/la-luna-boutique-image-1.jpg",
+    "/images/la-luna-boutique-image-13.jpg",
+    "/images/la-luna-boutique-image-10.jpg"
   ],
   "contact": {
     "email": "info@lalunaplett.co.za",
