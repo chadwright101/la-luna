@@ -78,7 +78,7 @@ const GallerySlider = ({ cssClasses, data }: Props) => {
         </SwiperSlide>
       ))}
       <button
-        className="hidden desktop:grid place-items-center z-10 swiper-button-prev absolute bottom-0.5 left-[41%] cursor-pointer hover:opacity-80 ease-in-out duration-300 w-5 h-5"
+        className="hidden desktop:grid place-items-center z-10 swiper-button-prev absolute translate-y-1/3 bottom-1/2 left-8 cursor-pointer hover:opacity-90 ease-in-out duration-300 w-12 h-12 bg-white/90 rounded-full"
         aria-label="Show previous image"
       >
         <svg
@@ -87,6 +87,7 @@ const GallerySlider = ({ cssClasses, data }: Props) => {
           height="12"
           viewBox="0 0 9 12"
           fill="none"
+          className="size-5"
         >
           <path
             d="M7.29406 12L0.5 6L7.29406 0L8.5 1.065L2.91189 6L8.5 10.935L7.29406 12Z"
@@ -95,7 +96,7 @@ const GallerySlider = ({ cssClasses, data }: Props) => {
         </svg>
       </button>
       <button
-        className="hidden desktop:grid place-items-center z-10 swiper-button-next absolute bottom-0.5 right-[41%] cursor-pointer hover:opacity-80 ease-in-out duration-300 w-5 h-5"
+        className="hidden desktop:grid place-items-center z-10 swiper-button-next absolute translate-y-1/3 bottom-1/2 right-8 cursor-pointer hover:opacity-90 ease-in-out duration-300 w-12 h-12 bg-white/90 rounded-full"
         aria-label="Show next image"
       >
         <svg
@@ -104,6 +105,7 @@ const GallerySlider = ({ cssClasses, data }: Props) => {
           height="12"
           viewBox="0 0 8 12"
           fill="none"
+          className="size-5"
         >
           <path
             d="M1.5552 0.0552258L7.5 6.00003L1.5552 11.9448L0.499999 10.8896L5.3896 6.00003L0.5 1.11043L1.5552 0.0552258Z"
