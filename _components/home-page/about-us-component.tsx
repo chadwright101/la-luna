@@ -10,18 +10,23 @@ const AboutUsComponent = () => {
           <SectionHeading cssClasses="mb-7">About Us</SectionHeading>
           <div className="grid gap-4">
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
-              reprehenderit dolorum, quisquam minima autem ad tenetur optio
-              dolor eaque placeat molestiae laboriosam labore architecto
-              doloremque eius recusandae dignissimos, voluptas odio laudantium!
-              Eaque deleniti laudantium doloribus dolore enim.
+              Nestled in the heart of Plettenberg Bay, La Luna Boutique is a
+              charming destination for exquisite swimwear, lingerie, and
+              leisurewear. We proudly curate a collection of imported fashion
+              from style capitals such as Germany, Italy, and Australia,
+              alongside beautifully crafted garments made right here in South
+              Africa.
             </p>
             <p>
-              Neque in atque, sed expedita voluptatem error labore fuga
-              similique, magni, porro libero deserunt magnam perferendis. Eaque
-              illo soluta eligendi at exercitationem! Error obcaecati neque
-              accusantium corporis modi ipsa, excepturi voluptate molestias sunt
-              fuga cupiditate omnis sequi repellendus quisquam.
+              At La Luna, we believe elegance and glamour should be part of
+              everyday life. Whether you're preparing for a sun-kissed beach
+              outing or a relaxed moonlit dinner with loved ones, our versatile
+              range is designed to make every moment feel special.
+            </p>
+            <p>
+              We welcome you to experience the warmth of our boutique — with
+              every piece telling a story of beauty, comfort, and effortless
+              style.
             </p>
           </div>
         </div>

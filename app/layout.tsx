@@ -16,10 +16,13 @@ import { Footer } from "@/_components/navigation/footer/footer";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.lalunaplett.co.za"),
   title: "La Luna Boutique - Plettenberg Bay",
-  description: "",
-  keywords: "",
+  description:
+    "La Luna Boutique in Plettenberg Bay offers exquisite swimwear, lingerie, and leisurewear from Germany, Italy, Australia, and South Africa. Experience elegance and glamour for every occasion.",
+  keywords:
+    "boutique, swimwear, lingerie, leisurewear, Plettenberg Bay, South Africa, imported fashion, German fashion, Italian fashion, Australian fashion, elegant clothing, beachwear, nightwear, moonlit dinner, luxury boutique, coastal fashion, summer style, resort wear",
   openGraph: {
-    description: "",
+    description:
+      "La Luna Boutique in Plettenberg Bay offers exquisite swimwear, lingerie, and leisurewear from Germany, Italy, Australia, and South Africa. Experience elegance and glamour for every occasion.",
     type: "website",
     locale: "en_ZA",
     siteName: "La Luna Boutique - Plettenberg Bay",
