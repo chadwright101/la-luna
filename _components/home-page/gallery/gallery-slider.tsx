@@ -66,7 +66,7 @@ const GallerySlider = ({ cssClasses, data }: Props) => {
       }}
     >
       {data.map((src, index) => (
-        <SwiperSlide key={index} className="mb-7 aspect-[3/4] desktop:mb-8">
+        <SwiperSlide key={index} className="mb-7 aspect-[2.75/4] desktop:mb-8">
           <Image
             src={src}
             alt={`La Luna Boutique - Image ${index + 1}`}

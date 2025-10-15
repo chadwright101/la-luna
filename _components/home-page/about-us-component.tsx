@@ -32,7 +32,7 @@ const AboutUsComponent = () => {
         </div>
         <div className="grid gap-10 min-[600px]:grid-cols-2 desktop:grid-cols-3">
           <Image
-            src="/images/la-luna-boutique-image-20.jpg"
+            src="/images/la-luna-boutique-gallery-image-19.jpg"
             alt="La Luna Boutique - Plettenberg Bay"
             width={800}
             height={600}
@@ -40,7 +40,7 @@ const AboutUsComponent = () => {
             className="h-full w-full object-cover aspect-square"
           />
           <Image
-            src="/images/la-luna-boutique-image-19.jpg"
+            src="/images/la-luna-boutique-gallery-image-18.jpg"
             alt="La Luna Boutique - Plettenberg Bay"
             width={800}
             height={600}
@@ -48,7 +48,7 @@ const AboutUsComponent = () => {
             className="h-full w-full object-cover aspect-square"
           />
           <Image
-            src="/images/la-luna-boutique-image-12.jpg"
+            src="/images/la-luna-boutique-gallery-image-4.jpg"
             alt="La Luna Boutique - Plettenberg Bay"
             width={800}
             height={600}
