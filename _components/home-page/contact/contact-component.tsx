@@ -6,7 +6,6 @@ import ContactFormComponent from "./contact-form-component";
 import SectionHeading from "@/_lib/utils/section-heading";
 import MapComponent from "./map-component";
 import LayoutWrapper from "@/_lib/utils/layout-wrapper";
-import SocialIcons from "@/_components/ui/social-icons";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 
 const ContactComponent = () => {
@@ -29,7 +28,7 @@ const ContactComponent = () => {
                 <h3 className="text-subheading">Phone:</h3>
                 <ShowPhoneNumber />
               </div>
-              <SocialIcons black cssClasses="tablet:mt-5 desktop:mt-0" />
+              {/* <SocialIcons black cssClasses="tablet:mt-5 desktop:mt-0" /> */}
             </div>
             <ContactFormComponent />
           </div>

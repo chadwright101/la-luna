@@ -51,7 +51,7 @@ const ShowPhoneNumber = ({ buttonClasses, linkClasses }: showContactProps) => {
   } else {
     return (
       <Link
-        href={`tel:${showPhone}`}
+        href={`tel:+27${showPhone}`}
         className={classNames(
           "px-2 text-left -mx-2 self-center text-paragraph leading-[125%] py-3 -my-3 hover:tablet:opacity-80 hover:cursor-pointer desktop:p-0 desktop:m-0",
           linkClasses,

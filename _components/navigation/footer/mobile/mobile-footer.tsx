@@ -1,11 +1,10 @@
-import SocialIcons from "@/_components/ui/social-icons";
 import Image from "next/image";
 import Link from "next/link";
 
 export function MobileFooter() {
   return (
     <div className="flex flex-col gap-7 items-center px-7 pt-10 pb-5 desktop:hidden">
-      <SocialIcons />
+      {/* <SocialIcons /> */}
       <Image
         src="/logo/la-luna-boutique-logo-blush-pink.png"
         alt="La Luna Boutique - Plettenberg Bay"
