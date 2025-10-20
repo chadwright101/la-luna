@@ -9,7 +9,7 @@ interface Props {
 
 const facebookLink = "#";
 const instagramLink = "#";
-const whatsappLink = "#";
+const whatsappLink = "https://wa.me/message/HXT62BVHQ5XNC1";
 const facebookLogoWhite = "/icons/facebook-white.svg";
 const instagramLogoWhite = "/icons/instagram-white.svg";
 const whatsAppLogoWhite = "/icons/whatsapp-white.svg";
@@ -21,7 +21,7 @@ const SocialIcons = ({ cssClasses, small, black }: Props) => {
   if (!small) {
     return (
       <ul className={`flex gap-5 desktop:gap-2 ${cssClasses}`}>
-        <li>
+        {/*  <li>
           <Link
             href={facebookLink}
             target="_blank"
@@ -52,7 +52,7 @@ const SocialIcons = ({ cssClasses, small, black }: Props) => {
               className="desktop:w-6 h-auto"
             />
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             href={whatsappLink}
@@ -74,7 +74,7 @@ const SocialIcons = ({ cssClasses, small, black }: Props) => {
   } else {
     return (
       <ul className={`flex gap-2 ${cssClasses}`}>
-        <li>
+        {/* <li>
           <Link
             href={facebookLink}
             className="grid place-items-center tablet:hover:opacity-80 ease-in-out duration-200"
@@ -103,7 +103,7 @@ const SocialIcons = ({ cssClasses, small, black }: Props) => {
               height={20}
             />
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             href={whatsappLink}

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import navData from "@/_data/nav-data.json";
+import SocialIcons from "@/_components/ui/social-icons";
 
 export function DesktopFooter() {
   return (
@@ -21,7 +22,7 @@ export function DesktopFooter() {
                 </li>
               );
             })}
-            {/* <SocialIcons cssClasses="mt-2" small /> */}
+            <SocialIcons cssClasses="mt-2" small />
           </ul>
         </nav>
 
