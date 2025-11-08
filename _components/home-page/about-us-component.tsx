@@ -31,30 +31,36 @@ const AboutUsComponent = () => {
           </div>
         </div>
         <div className="grid gap-10 min-[600px]:grid-cols-2 desktop:grid-cols-3">
-          <Image
-            src="/images/la-luna-boutique-gallery-image-19.jpg"
-            alt="La Luna Boutique - Plettenberg Bay"
-            width={800}
-            height={600}
-            sizes="(max-width: 800px) 100vw, 33vw"
-            className="h-full w-full object-cover aspect-square"
-          />
-          <Image
-            src="/images/la-luna-boutique-gallery-image-18.jpg"
-            alt="La Luna Boutique - Plettenberg Bay"
-            width={800}
-            height={600}
-            sizes="(max-width: 800px) 100vw, 33vw"
-            className="h-full w-full object-cover aspect-square"
-          />
-          <Image
-            src="/images/la-luna-boutique-gallery-image-4.jpg"
-            alt="La Luna Boutique - Plettenberg Bay"
-            width={800}
-            height={600}
-            sizes="(max-width: 800px) 100vw, 33vw"
-            className="hidden desktop:block h-full w-full object-cover"
-          />
+          <div>
+            <Image
+              src="/images/la-luna-boutique-gallery-image-19.jpg"
+              alt="La Luna Boutique - Plettenberg Bay"
+              width={800}
+              height={600}
+              sizes="(max-width: 800px) 100vw, 33vw"
+              className="h-full w-full object-cover aspect-square"
+            />
+          </div>
+          <div>
+            <Image
+              src="/images/la-luna-boutique-gallery-image-18.jpg"
+              alt="La Luna Boutique - Plettenberg Bay"
+              width={800}
+              height={600}
+              sizes="(max-width: 800px) 100vw, 33vw"
+              className="h-full w-full object-cover aspect-square"
+            />
+          </div>
+          <div>
+            <Image
+              src="/images/la-luna-boutique-gallery-image-4.jpg"
+              alt="La Luna Boutique - Plettenberg Bay"
+              width={800}
+              height={600}
+              sizes="(max-width: 800px) 100vw, 33vw"
+              className="hidden desktop:block h-full w-full object-cover"
+            />
+          </div>
         </div>
       </LayoutWrapper>
     </main>
